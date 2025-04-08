@@ -11,9 +11,9 @@ int main()
 {
 	int n1 =0 , n2 = 0, n3 = 0;
 	cout << "This program calculates the average of three numbers." << endl;
-	cout << "First number: "; cin >> n1;
-	cout << "Second number: "; cin >> n2;
-	cout << "Third number: "; cin >> n2;
+	cout << "What is the First number: "; cin >> n1;
+	cout << "And the Second number: "; cin >> n2;
+	cout << "How about the Third number: "; cin >> n2;
 
 	float a = average(n1, n2, n3);
 
